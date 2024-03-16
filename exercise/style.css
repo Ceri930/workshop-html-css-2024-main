@@ -1,11 +1,32 @@
 /* Your CSS code here: */
 
-/* * { 
+* { 
   border: 1px solid black; 
 }
- */
+
 body{
   margin: 0px;
+}
+
+.friends-filter{
+  text-align: center;
+}
+
+.contact-card{
+  display:flex;
+  align-items: center;
+  padding-left: 40px;
+  height: 120px;
+}
+
+.contact-card img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.contact-card p{
+  margin-left: 30px;
 }
 
 .left{
@@ -25,3 +46,4 @@ body{
   display: flex;
   height: 700px;
 }
+
